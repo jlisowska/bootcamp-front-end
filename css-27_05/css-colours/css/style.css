@@ -1,0 +1,28 @@
+section{
+    background-color: red;
+}
+/*Specify a background color for every section element that is the second child of its parent: - PSEUDOKLASY */
+section:nth-child(2){
+    background-color: #00ff00;
+}
+section:nth-child(3){
+    background-color: rgb(0,0,255);
+}
+
+#popup{
+    position: fixed;
+    height: 100vh; /*może byc% bo fixed fiksuje się do szerokosci okna*/
+    width: 100%;
+    background-color: rgba(0,0,0,0.7); /*zgodne ze standardem jezeli wszystkie 3 pary są takie same np 33aa88 a nie 33aa32*/
+    top: 0; /* fixed zawsze musi być zaczepiony o którąś z krawędzi przeglądarki*/
+    
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

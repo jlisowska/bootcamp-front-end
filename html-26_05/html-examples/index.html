@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Examples</title>
+</head>
+<body>
+    <!-- Komentarze -->
+    <!--znaczniki liniowe i blokowe: materiały do kursu -->
+    <!--odnośniki-->
+    <a href="https://strona.pl" target="_blank">link otwarty w nowej karcie</a>
+    <a href="folder/plik.html">link wewnętrzny</a>
+    <a href="#sekcja">link do elementu o id sekcja</a>
+    <a href="mailto:jolanta.lisowska91@gmail.com">otwarcie klienta poczty z adresatem podanym w mailto</a>
+    <!--tabele-->
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Ilość</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Kawa</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Herbata</td>
+                    <td>6</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Razem</td>
+                    <td>8</td>
+                </tr>
+            </tfoot>
+        </table>
+    <!--Formularze-->
+    <form action="" method="POST">
+        <label for="user-name">Imię: </label>
+        <input id="user-name" type="text" name="name" placeholder="Imię" tabindex=3><br><br>
+        <input type="email" name="email" disabled><br><br>
+        <input type="number" name="quantity" tabindex=2><br><br>
+        <input type="checkbox" name="agreement" required><br><br>
+        <label><input type="radio" name="gender">Kobieta</label><br>
+        <label><input type="radio" name="gender">Mężczyzna</label><br><br><!-- oblozenie input label lub label for: są poprawne -->
+        <select name="cities">
+            <option value="Warszawa">Warszawa</option>
+            <option value="Kraków">Kraków</option>
+            <option value="Wrocław">Wrocław</option>
+        </select><br><br>
+        <textarea name="message" tabindex=1></textarea><br><br>
+        <input type="submit" value="Wyślij formularz">
+    </form><br><br>   
+    <!--Iframe -->
+    <iframe width="700" height="394" src="https://www.youtube.com/embed/ZM9cmYlJ9Ow"></iframe>
+    <!--SVG, cytaty, code i pre: materiały do ćwiczeń-->
+</body>    
+</html>

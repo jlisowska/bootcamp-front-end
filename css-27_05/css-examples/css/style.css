@@ -1,0 +1,79 @@
+
+/*selektor elementu
+p{
+    background-color: red;
+}
+/* identyfikator
+#container{
+    background-color: yellow;
+}
+/* klasa 
+.highligth{
+    background-color: green;
+}
+/*bezpośrednie potmostwo
+section>h2{
+    background-color: blue;
+}
+/* bez względu na poziom zagnieżdżenia
+section h2{
+    background-color: grey;
+}
+/* selektor uniwersalny 
+*{
+    color: darkorange;
+}
+/* selektroy łączone &, tylko element z okreslonym class lub id lub atrybut
+p.content{
+    color: purple;
+}
+/*==================== hierarchia selektorów ==========================*/
+/*
+h1{
+    color: pink !important;
+}
+.header{
+    color: brown;
+}
+#main-header{
+    color: green;
+}
+.header.blue{
+    color: brown;
+}
+*/
+/*===================== pozycjonowanie =============================*/
+.block{
+    background-color: green;
+    height: 500px;
+    position: relative;
+}
+.red{
+ /*   
+    background-color: red;
+    color: white;
+    margin: 0;
+    position: absolute; /*pozycjonuje względem góry, dołu, lewo, prawo dokumentu
+    left: 30px;
+    top: 60px;
+*/
+/*  
+    background-color: red;
+    color: white;
+    margin: 0;
+    position: relative;
+    left: 30px;
+    top: 60px;
+*/
+    background-color: red;
+    color: white;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+}
+.blue{
+    background-color: blue;
+    color: white;
+    margin: 0;
+}
+

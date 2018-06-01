@@ -1,0 +1,71 @@
+/* pseudo element before bo go nie ma, a można sie odwołać (ale tylko w css) do niego*/
+button{
+    background-color: darkorange;
+    color: #fff;
+    font-size: 1.2em;
+    border: none; /*usuniecie deafoultowo ramki buttona*/
+    position: relative;
+}
+
+button::before {
+    content: "";
+    border-top: 2px solid darkorange;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: -5px;
+}
+button::after {
+    content: "";
+    border-bottom: 2px solid darkorange;
+    border-right: 2px solid darkorange;
+    width: 105%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: -5px;
+}
+
+/* pseudo-classes/ nie odołują sie do czegos co nie istnieje ale sposob na złapanie specyficznego elementu*/
+
+ul > li:first-child {
+    font-size: 1.5em;
+}
+ul > li:last-child {
+    font-size: 1.5em;
+}
+ul > li:nth-child(3) {
+    font-size: 1.5em;
+}
+ul > li:nth-child(even) {
+    color: yellow;
+}
+ul > li:nth-child(odd) {
+    color: red;
+}
+section > p:nth-child(3n+1){
+    background-color: orange;
+}
+section > p:nth-of-type(4n){
+    background-color: hotpink;
+}
+
+a{
+    font-size: 2em;
+    color: #ff0000;
+    text-decoration: none;
+    cursor: grab;
+    transition: all 2s;
+}
+a:hover{
+    color: green;
+    font-size: 4em;
+}
+a:visited{
+    color: violet;
+    font-size: 4em;
+}
+
+input:focus {
+    background-color: aquamarine;
+}
