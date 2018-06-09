@@ -1,4 +1,5 @@
-/* attribute selectors*/
+/*------------------- attribute selectors ---------------------*/
+
 div.customer[detailed] {
     background-color: yellow;
 }
@@ -21,4 +22,42 @@ div.customer[sum^="36"] {
 
 div.customer[sum$="00"] {
     border: 2px solid black;
+}
+
+/*------------------- display -------------------------*/
+
+p.first{
+    background-color: pink;
+}
+
+p.second{
+    background-color: yellowgreen;
+}
+
+p.third{
+    background-color: indianred;
+}
+
+p.fourth{
+    background-color: firebrick;
+}
+
+#block-elements p {
+   display: inline;
+}
+
+#inline-block-elements ul{
+    text-align: center;
+} 
+
+#inline-block-elements ul li{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    text-align: center;
+}
+
+#display-none p {
+    display: none;
 }
