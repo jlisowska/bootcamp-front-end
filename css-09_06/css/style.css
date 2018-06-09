@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 /*------------------- attribute selectors ---------------------*/
 
 div.customer[detailed] {
@@ -125,4 +129,40 @@ p:last-of-type {
     background-repeat: no-repeat;
     background-size: contain; 
     background-attachment: fixed;
+}
+
+/* ----- overflow of elements -----*/
+
+.box {
+    width: 300px;
+    height: 150px;
+    border: 1px solid red;
+    margin: 60px;
+}
+
+.visible {
+    overflow: visible;
+    color: green;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.scroll{
+    overflow: scroll;
+}
+
+.auto{
+    overflow: auto;
+}
+
+/* ----- size of elements -----*/
+
+.box-new {
+    width: 50%;
+    float: left;
+    font-size: 24px;
+    padding: 20px;
+    border: 5px solid red;
 }
