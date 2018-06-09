@@ -1,0 +1,69 @@
+body {
+    font-size: 1em;
+    font-family: "Arial", sans-serif;
+    color: white;
+}
+
+form {
+    width: 50%;
+    background-color: #213b50;
+    padding: 20px;
+}
+
+form label, form p {
+    display: block;
+    margin: 0.5em 0;
+}
+
+/*
+form input, form select {
+    margin-bottom: 0.5em;
+} 
+*/
+
+form textarea {
+    font-size: 1em;
+    font-family: "Arial", sans-serif;
+    height: 100px;
+    width: 300px;
+}
+
+form select {
+    color: #fff;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], select, textarea
+{
+    background-color: #2b4a64;
+    border:1px solid #2b4a64;
+    border-radius: 2px;
+    font-size: 1em;
+    padding: 0.2em;
+    outline: none;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, select:focus, textarea:focus {
+    border: 1px solid #fff;
+    color: white;
+    background-color: #4e708c;
+}
+
+input[type="submit"] {
+    
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    font-size: 1em;
+    border: 1px solid #00cc66;
+    border-radius: 2px;
+    background-color: #00cc66;
+    color: white;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #00994d;
+    border: 1px solid #00994d;
+    border-radius: 2px;
+}
