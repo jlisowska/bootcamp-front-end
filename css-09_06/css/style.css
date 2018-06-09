@@ -61,3 +61,17 @@ p.fourth{
 #display-none p {
     display: none;
 }
+
+/*--------------- float ------------------*/
+
+#image1 {
+    float: left;
+}
+
+#image2 {
+    float: right;
+}
+
+p:last-of-type {
+    clear: both;
+}
