@@ -1,0 +1,24 @@
+/* attribute selectors*/
+div.customer[detailed] {
+    background-color: yellow;
+}
+
+div.customer[detailed="mozetak"] {
+    background-color: red;
+}
+
+div.customer[detailed*="tak"] {
+    border: 1px solid green;
+}
+
+div.customer[detailed~="tak"] {
+    border: 1px solid violet;
+}
+
+div.customer[sum^="36"] {
+    border: 1px solid blue;
+}
+
+div.customer[sum$="00"] {
+    border: 2px solid black;
+}
