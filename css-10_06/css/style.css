@@ -1,0 +1,46 @@
+img {
+    
+    width: 500px;
+    height: 500px;
+    margin-bottom: 50px;
+    transition: all 0.7s;    
+}
+
+div {
+    border: 1px solid #000;
+    width: 500px;
+    height: 500px;
+}
+
+.transform-rotate img:hover {
+    transform: rotate(90deg);
+}
+
+.transform-translate img:hover {
+    transform: translate(300px, 200px);
+}
+
+.transform-scale {
+    overflow: hidden;
+}
+
+.transform-scale img:hover {
+    transform: scale(1.5);
+    transform-origin: center center;
+}
+
+@keyframes animation-example {
+    
+    0%,100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+}
+
+.animation img {
+    
+    animation: animation-example 4s infinite ease-in-out;
+    
+}
