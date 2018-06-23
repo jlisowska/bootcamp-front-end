@@ -1,0 +1,22 @@
+html {
+    font-size: 10px;
+}
+.container {
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+.container-col, .container-col-right {
+    width: 50%;
+    float: left;
+    transition: all 0.3s;
+}
+
+.container-col {
+    background-color: papayawhip;
+}
+
+.container-col-right {
+    background-color: hotpink;
+}
+

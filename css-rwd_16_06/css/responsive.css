@@ -1,0 +1,16 @@
+@media (max-width: 680px) {
+    .container-col, .container-col-right {
+        float: none;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 680px) {
+    html {
+        font-size: 15px;  /* ---- zmiana szybka czcionki ---- */
+    }
+    .container-col-right {
+        opacity: 0;
+    }
+}

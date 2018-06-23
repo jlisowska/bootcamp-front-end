@@ -1,0 +1,25 @@
+.decor-link {
+    background-color: #ff1981;
+    font-size: 2rem;
+}
+
+#main-header {
+    transition: all 1s;
+}
+
+.move #main-header {
+    background-color: #deadd3;
+    transform: translate(150px,0) scale(1.4);
+}
+
+#event-div {
+    background-color: #deadd3;
+    border: 2px solid #afadd7;
+    text-align: center;
+    padding: 10px;
+}
+
+#btn {
+    padding: 15px;
+    border: 1px solid #000;
+}
