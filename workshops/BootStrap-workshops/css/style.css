@@ -31,6 +31,7 @@ h5 {
     text-align: center;
     font-style: italic;
     color: #777777;
+    padding-bottom: 1rem;
 }
 /*--------------- general styles stop --------------*/
 
@@ -67,6 +68,9 @@ h5 {
     font-style: italic;
 }
 
+/*---------- main header stop --------------*/
+/*---------- main nav start --------------*/
+
 .btn-custom {
     color: #fff;
     text-transform: uppercase;
@@ -79,6 +83,14 @@ h5 {
     color: #0ed8d6;
     background-color: #fff;
     border: 2px solid #0ed8d6;
+}
+
+.navbar.navbar-expand-lg.navbar-light.fixed-top.scroll  {
+    background-color: rgba(14,216,214,0.4);
+}
+
+#main-nav.navbar.navbar-expand-lg.navbar-light.fixed-top.scroll .nav-link:hover  {
+    color: #222;
 }
 
 #main-nav .nav-link {
@@ -94,7 +106,8 @@ h5 {
     color: #fff;
     font-size: 1.7rem;
 }
-/*---------- main header stop --------------*/
+/*---------- main nav stop --------------*/
+
 
 /*---------- section services start --------------*/
 
@@ -198,10 +211,10 @@ h5 {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: rgba(102, 151, 232,0);
+    background-color: rgba(102, 151, 232, 0);
 }
 .mask:hover{
-    background-color: rgba(102, 151, 232,0.5);
+    background-color: rgba(102, 151, 232, 0.5);
 }
 
 .fas.fa-plus {
@@ -217,11 +230,126 @@ h5 {
 .mask:hover .fas.fa-plus {
     color: rgba(255, 255, 255,1);
 }
-/*---------- section portfolio end --------------*/
+/*---------- section portfolio stop --------------*/
+
 /*---------- section team start --------------*/
-
-
-/*---------- section team end --------------*/
 #team {
     padding: 3rem 0;
 }
+
+.img-container-team {
+    height: 15rem;
+    width: 15rem;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-size: cover;
+    display: inline-block;
+}
+
+.img-content {
+    padding-top: 1rem;
+}
+
+#img1-team {
+    background-image: url(../img/team/man-1.jpg);
+}
+
+#img2-team {
+    background-image: url(../img/team/man-2.jpg);
+}
+
+#img3-team {
+    background-image: url(../img/team/woman-1.jpg);
+}
+
+.socials-item {
+    position: relative;
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color: #222;
+}
+
+.socials-item:hover {
+    background-color: #0ed8d6;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-linkedin-in {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid transparent;
+    border-radius: 50%;
+    font-size: 1rem;
+    color: #fff;
+}
+
+#team-content {
+    padding-top: 3rem;
+}
+
+#team .section-paragraph {
+    padding-bottom: 0;
+}
+/*---------- section team stop --------------*/
+
+/*---------- section contact start --------------*/
+#contact {
+    background-image : linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/footer/world-map.jpg);
+    background-size: cover;
+    padding: 3rem 0;
+}
+
+#contact .section-content h2, #contact .section-content p  {
+    color: #fff;
+}
+
+.form-item {
+    padding-top: 0.7rem;
+    text-align: center;
+}
+
+[type="text"], [type="email"], [type="tel"] {
+
+    padding: 0.5rem 0.7rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+
+textarea {
+ 
+    padding: 0.5rem 0.7rem;
+    width: 80%;
+    border-radius: 5px;
+}
+
+
+input[type="submit"] {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #0ed8d6;
+    border: 2px solid #0ed8d6;
+    border-radius: 4px;
+    padding: 0.7rem;
+}
+/*---------- section contact stop --------------*/
+
+/*---------- section footer start--------------*/
+
+footer {
+    padding: 0.5rem;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+/*---------- section footer stop--------------*/
